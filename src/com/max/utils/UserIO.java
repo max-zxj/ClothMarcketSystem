@@ -10,6 +10,15 @@ import java.util.*;
 public class UserIO {
     private static List<User> users = new ArrayList<>();
     private static final String USER_FILE = "user.obj";
+    public UserIO() throws BusinessException{
+        try{
+            ObjectInputStream in = new ObjectInputStream(new FileInputStream(USER_FILE));
+            users = (List<User>)in.readObject();
+            in.close();
+        } catch (IOException|ClassNotFoundException e) {
+            throw new BusinessException("io.read.error");
+        }
+    }
 
     public boolean writeUsers() throws BusinessException {
         try {

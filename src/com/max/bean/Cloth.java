@@ -6,9 +6,10 @@ public class Cloth {
     private String style;
     private String color;
     private String size;
-    private String description;
     private int num;
     private float price;
+    private String description;
+
 
     public float getPrice() {
         return price;
