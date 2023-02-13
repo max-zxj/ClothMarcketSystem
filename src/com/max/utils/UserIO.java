@@ -10,15 +10,6 @@ import java.util.*;
 public class UserIO {
     private static List<User> users = new ArrayList<>();
     private static final String USER_FILE = "user.obj";
-    public UserIO() throws BusinessException{
-        try{
-            ObjectInputStream in = new ObjectInputStream(new FileInputStream(USER_FILE));
-            users = (List<User>)in.readObject();
-            in.close();
-        } catch (IOException|ClassNotFoundException e) {
-            throw new BusinessException("io.read.error");
-        }
-    }
 
     public boolean writeUsers() throws BusinessException {
         try {
@@ -44,11 +35,17 @@ public class UserIO {
     }
 
     public void add(User user){
+        if(users.size()==0){
+            readUsers();
+        }
         user.setId(users.size()+1);
         users.add(user);
     }
 
     public User findByUsernameAndPassword(String username,String password){
+        if(users.size()==0){
+            readUsers();
+        }
         for(User u:users){
             if(u.getUsername().equals(username) && u.getPassword().equals(password)){
                 return u;

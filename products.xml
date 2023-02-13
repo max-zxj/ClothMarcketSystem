@@ -1,66 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<list>
-    <clothes id="'A0001">
-        <brand>VEROMODA</brand>
-        <style>Skirt</style>
-        <color>white</color>
-        <size>S</size>
-        <num>4</num>
-        <price>274.0</price>
-        <description>for summer</description>
-    </clothes>
-    <clothes id="'A0002">
-        <brand>Dior</brand>
-        <style>T-shirt</style>
-        <color>pink</color>
-        <size>M</size>
-        <num>6</num>
-        <price>1274.0</price>
-        <description>for summer</description>
-    </clothes>
-    <clothes id="'A0003">
-        <brand>Channel</brand>
-        <style>skirt</style>
-        <color>black</color>
-        <size>XS</size>
-        <num>6</num>
-        <price>5980.0</price>
-        <description>for summer</description>
-    </clothes>
-    <clothes id="'A0004">
-        <brand>VEROMODA</brand>
-        <style>Skirt</style>
-        <color>pink</color>
-        <size>S</size>
-        <num>4</num>
-        <price>288.0</price>
-        <description>for summer</description>
-    </clothes>
-    <clothes id="'A0005">
-        <brand>GAP</brand>
-        <style>Hoodie</style>
-        <color>blue</color>
-        <size>L</size>
-        <num>4</num>
-        <price>374.0</price>
-        <description>for fall</description>
-    </clothes>
-    <clothes id="'A0006">
-        <brand>Dior</brand>
-        <style>jacket</style>
-        <color>brown</color>
-        <size>L</size>
-        <num>4</num>
-        <price>19374.0</price>
-        <description>for fall</description>
-    </clothes>
-    <clothes id="'A0007">
-        <brand>GAP</brand>
-        <style>Sweatpants</style>
-        <color>grey</color>
-        <size>L</size>
-        <num>4</num>
-        <price>289.0</price>
-        <description>for fall</description>
-    </clothes>
+<?xml version="1.0" encoding="UTF-8" ?><list>
+  <clothes id="A0001">
+    <brand>VEROMODA</brand>
+    <style>Skirt</style>
+    <color>white</color>
+    <size>S</size>
+    <num>2</num>
+    <price>274.0</price>
+    <description>for summer</description>
+  </clothes>
+  <clothes id="A0002">
+    <brand>Dior</brand>
+    <style>T-shirt</style>
+    <color>pink</color>
+    <size>M</size>
+    <num>5</num>
+    <price>1274.0</price>
+    <description>for summer</description>
+  </clothes>
+  <clothes id="A0003">
+    <brand>Channel</brand>
+    <style>skirt</style>
+    <color>black</color>
+    <size>XS</size>
+    <num>5</num>
+    <price>5980.0</price>
+    <description>for summer</description>
+  </clothes>
+  <clothes id="A0004">
+    <brand>VEROMODA</brand>
+    <style>Skirt</style>
+    <color>pink</color>
+    <size>S</size>
+    <num>3</num>
+    <price>288.0</price>
+    <description>for summer</description>
+  </clothes>
+  <clothes id="A0005">
+    <brand>GAP</brand>
+    <style>Hoodie</style>
+    <color>blue</color>
+    <size>L</size>
+    <num>4</num>
+    <price>374.0</price>
+    <description>for fall</description>
+  </clothes>
+  <clothes id="A0006">
+    <brand>Dior</brand>
+    <style>jacket</style>
+    <color>brown</color>
+    <size>L</size>
+    <num>3</num>
+    <price>19374.0</price>
+    <description>for fall</description>
+  </clothes>
+  <clothes id="A0007">
+    <brand>GAP</brand>
+    <style>Sweatpants</style>
+    <color>grey</color>
+    <size>L</size>
+    <num>1</num>
+    <price>289.0</price>
+    <description>for fall</description>
+  </clothes>
 </list>

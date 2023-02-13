@@ -6,6 +6,7 @@ public class OrderItem implements Serializable {
     private int id;
     private float totalPrice;
     private int num;
+    private Cloth cloth;
 
     public int getId() {
         return id;
@@ -38,7 +39,5 @@ public class OrderItem implements Serializable {
     public void setTotalPrice(float totalPrice) {
         this.totalPrice = totalPrice;
     }
-
-    private Cloth cloth;
 
 }
