@@ -15,8 +15,12 @@ import java.util.Date;
 import java.util.List;
 
 public class HomeClass extends BaseClass{
-    private OrderService orderService = new OrderServiceImpl();
-    private ClothService clothService = new ClothServiceImpl();
+    private OrderService orderService;
+    private ClothService clothService;
+    public HomeClass(){
+        orderService = (OrderService) beanFactory.getBean("OrderService");
+        clothService = (ClothService) beanFactory.getBean("ClothService");
+    }
     public void show(){
         print("Welcome "+currentUser.getUsername()+"!");
         showProducts();
@@ -156,8 +160,4 @@ public class HomeClass extends BaseClass{
         clothService.update();
         showProducts();
     }
-
-
-
-
 }

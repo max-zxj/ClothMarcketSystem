@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean id="ClothService" class="com.max.service.impl.ClothServiceImpl"></bean>
+    <bean id="UserService" class="com.max.service.impl.UserServiceImpl"></bean>
+    <bean id="OrderService" class="com.max.service.impl.OrderServiceImpl"></bean>
+</beans>

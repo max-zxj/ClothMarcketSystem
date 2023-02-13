@@ -10,5 +10,6 @@
     <orderEntry type="library" name="bluecatcode.junit.4.12.extended" level="project" />
     <orderEntry type="library" name="xstream-1.4.20" level="project" />
     <orderEntry type="library" name="xpp3_min-1.1.4c" level="project" />
+    <orderEntry type="library" name="dom4j-2.0.3" level="project" />
   </component>
 </module>
